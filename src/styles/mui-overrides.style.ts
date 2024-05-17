@@ -9,8 +9,19 @@ export const MUI_OVERRIDES = createTheme({
     MuiTypography: {
       styleOverrides: {
         root: {
-          font: "Oswald",
+          fontFamily: "Oswald",
           textTransform: "uppercase",
+          color: theme.palette.typography.title,
+        },
+      },
+    },
+    MuiLink: {
+      styleOverrides: {
+        root: {
+          fontFamily: "Oswald",
+          fontSize: "1rem",
+          fontWeight: 400,
+          textDecoration: "none",
           color: theme.palette.typography.title,
         },
       },

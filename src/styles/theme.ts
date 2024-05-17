@@ -6,12 +6,13 @@ export const theme = {
     typography: {
       title: "#153448",
       subtitle: "#676767",
+      paragraph: "#273446",
     },
     header: {
       main: "#153448",
     },
     icon: {
-      main: "#ffffff",
+      main: "#313c4e",
     },
     border: {
       main: "#262b33",

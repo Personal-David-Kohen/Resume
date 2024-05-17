@@ -9,13 +9,19 @@ export const useStyles = () =>
       minHeight: "100px",
     },
     title: {
-      fontSize: "2rem",
+      fontSize: "1.8rem",
       fontWeight: 400,
       color: theme.palette.typography.title,
     },
     subtitle: {
-      fontSize: "1.2rem",
+      fontSize: "1rem",
       fontWeight: 400,
       color: theme.palette.typography.subtitle,
+    },
+    paragraph: {
+      fontSize: "0.8rem",
+      fontWeight: 400,
+      marginTop: "10px",
+      color: theme.palette.typography.paragraph,
     },
   });
