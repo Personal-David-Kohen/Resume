@@ -22,4 +22,7 @@ export const useStyles = () =>
       maxWidth: "1200px",
       backgroundColor: theme.palette.paper.main,
     },
+    gridContainer: {
+      width: "90%",
+    },
   });
