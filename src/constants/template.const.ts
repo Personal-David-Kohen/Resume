@@ -88,6 +88,20 @@ export const RESUME_TEMPLATE = {
     "Continuous Learning and Improvement",
     "Attention to Detail",
   ],
+  LANGUAGES: [
+    {
+      LANGUAGE: "Hebrew",
+      PROFICIENCY: "Professional working proficiency",
+    },
+    {
+      LANGUAGE: "English",
+      PROFICIENCY: "Native",
+    },
+    {
+      LANGUAGE: "Russian",
+      PROFICIENCY: "Elementary proficiency",
+    },
+  ],
 };
 
 export const RESUME_TEMPLATE_WRAPPER = {
