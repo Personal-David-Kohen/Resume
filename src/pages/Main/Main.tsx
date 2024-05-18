@@ -3,6 +3,7 @@ import { useStyles } from "./Main.style";
 import Header from "src/components/Header/Header";
 import ExperienceSection from "src/components/ExperienceSection/ExperienceSection";
 import TechSkillsSection from "src/components/TechSkillsSection/TechSkillsSection";
+import SoftSkillsSections from "src/components/SoftSkillsSections/SoftSkillsSections";
 
 const Main = () => {
   const styles = useStyles();
@@ -20,6 +21,10 @@ const Main = () => {
 
             <Grid item xs={12} md={6}>
               <TechSkillsSection />
+            </Grid>
+
+            <Grid item xs={12} md={6}>
+              <SoftSkillsSections />
             </Grid>
           </Grid>
         </div>

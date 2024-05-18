@@ -20,6 +20,9 @@ export const theme = {
     paper: {
       main: "#E5E5E5",
     },
+    button: {
+      main: "#153448",
+    },
   },
   typography: {
     font: "Oswald",

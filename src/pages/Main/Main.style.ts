@@ -6,10 +6,12 @@ export const useStyles = () =>
     container: {
       display: "flex",
       flexDirection: "column",
-      width: "100vw",
-      height: "100vh",
+      maxWidth: "100vw",
+      width: "100%",
+      minHeight: "100vh",
       overflow: "hidden",
       alignItems: "center",
+      overflowX: "hidden",
       backgroundColor: theme.palette.background.main,
     },
     content: {

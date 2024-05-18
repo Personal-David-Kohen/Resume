@@ -78,6 +78,16 @@ export const RESUME_TEMPLATE = {
       ],
     },
   ],
+  SOFT_SKILLS: [
+    "Effective Debugging",
+    "Creative Problem Solving",
+    "Team Collaboration and Communication",
+    "Time Management and Prioritization",
+    "Adaptability and Flexibility",
+    "Agile and Scrum Methodologies",
+    "Continuous Learning and Improvement",
+    "Attention to Detail",
+  ],
 };
 
 export const RESUME_TEMPLATE_WRAPPER = {
