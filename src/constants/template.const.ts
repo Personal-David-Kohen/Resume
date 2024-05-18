@@ -102,6 +102,14 @@ export const RESUME_TEMPLATE = {
       PROFICIENCY: "Elementary proficiency",
     },
   ],
+  AWARDS: [
+    {
+      TITLE: "Unit-Level Excellence Award",
+      DATE: "Rosh Hashanah 2023",
+      DESCRIPTION:
+        "Bestowed by the commander of the unit after finishing a position a the head developer on a high-stakes organization-wide project that helped manage a budget of hundreds of millions of shekels.",
+    },
+  ],
 };
 
 export const RESUME_TEMPLATE_WRAPPER = {

@@ -17,9 +17,13 @@ export const useStyles = () =>
       flexDirection: "row",
       flexWrap: "wrap",
     },
+    award: {
+      fontSize: "1rem",
+      fontWeight: 400,
+      color: theme.palette.typography.subtitle,
+    },
     itemContainer: {
       minWidth: "150px",
-      marginTop: "1rem",
       display: "flex",
       flexDirection: "column",
       padding: "0.5rem",
@@ -27,12 +31,13 @@ export const useStyles = () =>
       alignItems: "flex-start",
       justifyContent: "flex-start",
     },
-    language: {
-      fontSize: "1rem",
+    date: {
+      fontSize: "0.8rem",
       fontWeight: 400,
-      color: theme.palette.typography.subtitle,
+      color: theme.palette.typography.paragraph,
     },
-    proficiency: {
+    description: {
+      marginTop: "0.5rem",
       fontSize: "0.8rem",
       fontWeight: 400,
       color: theme.palette.typography.paragraph,

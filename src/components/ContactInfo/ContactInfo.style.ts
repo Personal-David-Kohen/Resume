@@ -20,7 +20,7 @@ export const useStyles = () =>
       color: theme.palette.typography.title,
     },
     section: {
-      width: "10vw",
+      width: "100%",
       display: "flex",
       alignItems: "center",
       justifyContent: "center",

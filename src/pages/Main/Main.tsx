@@ -1,6 +1,7 @@
 import { Grid } from "@mui/material";
 import { useStyles } from "./Main.style";
 import Header from "src/components/Header/Header";
+import AwardsSection from "src/components/AwardsSection/AwardsSection";
 import LanguagesSection from "src/components/LanguagesSection/LanguagesSection";
 import ExperienceSection from "src/components/ExperienceSection/ExperienceSection";
 import TechSkillsSection from "src/components/TechSkillsSection/TechSkillsSection";
@@ -30,6 +31,10 @@ const Main = () => {
 
             <Grid item xs={12} md={6}>
               <LanguagesSection />
+            </Grid>
+
+            <Grid item xs={12} md={6}>
+              <AwardsSection />
             </Grid>
           </Grid>
         </div>
