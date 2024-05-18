@@ -36,6 +36,48 @@ export const RESUME_TEMPLATE = {
       ],
     },
   ],
+  TECH_SKILLS: [
+    {
+      CATEGORY: "Full Stack",
+      SKILLS: [
+        "JavaScript",
+        "TypeScript",
+        "Node.js",
+        "React",
+        "React-Query",
+        "Vite",
+        "Redux",
+        "Socket.io",
+        "Express",
+        "NestJS",
+        "Microsoft Authentication Library (MSAL)",
+        "JSON Web Token (JWT)",
+        "Sequelize",
+        "MongoDB",
+        "MySQL",
+        "PostgreSQL",
+        "Redis",
+        "Jest",
+        "Swagger",
+        "Postman",
+      ],
+    },
+    {
+      CATEGORY: "Cloud and DevOps",
+      SKILLS: [
+        "RedHat OpenShift",
+        "GitLab",
+        "GitHub",
+        "Azure DevOps",
+        "Docker",
+        "Kubernetes",
+        "AWS EKS",
+        "Azure Cloud",
+        "GitOps",
+        "GitHub Actions",
+      ],
+    },
+  ],
 };
 
 export const RESUME_TEMPLATE_WRAPPER = {
