@@ -35,21 +35,21 @@ const ContactInfo = () => {
 
         <Grid item {...GRID_ITEMS_SIZE}>
           <div style={styles.section}>
-            <Email sx={styles.icon} />
-            <Link
-              sx={styles.link}
-              href={`mailto:${RESUME_TEMPLATE_WRAPPER.EMAIL}`}
-            >
-              {RESUME_TEMPLATE_WRAPPER.EMAIL}
+            <LinkedIn sx={styles.icon} />
+            <Link sx={styles.link} href={RESUME_TEMPLATE_WRAPPER.LINKEDIN}>
+              {RESUME_TEMPLATE.CONTACT.LINKEDIN.DISPLAY}
             </Link>
           </div>
         </Grid>
 
         <Grid item {...GRID_ITEMS_SIZE}>
           <div style={styles.section}>
-            <LinkedIn sx={styles.icon} />
-            <Link sx={styles.link} href={RESUME_TEMPLATE_WRAPPER.LINKEDIN}>
-              {RESUME_TEMPLATE.CONTACT.LINKEDIN.DISPLAY}
+            <Email sx={styles.icon} />
+            <Link
+              sx={styles.link}
+              href={`mailto:${RESUME_TEMPLATE_WRAPPER.EMAIL}`}
+            >
+              {RESUME_TEMPLATE_WRAPPER.EMAIL}
             </Link>
           </div>
         </Grid>

@@ -26,5 +26,6 @@ export const useStyles = () =>
     },
     gridContainer: {
       width: "90%",
+      marginBottom: "20px",
     },
   });

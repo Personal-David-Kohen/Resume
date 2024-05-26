@@ -12,7 +12,6 @@ export const useStyles = () =>
       fontWeight: 400,
     },
     itemsContainer: {
-      marginTop: "1rem",
       display: "flex",
       flexDirection: "row",
       flexWrap: "wrap",

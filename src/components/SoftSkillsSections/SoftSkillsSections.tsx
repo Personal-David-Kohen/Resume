@@ -8,7 +8,9 @@ const SoftSkillsSections = () => {
 
   return (
     <div style={styles.container}>
-      <Typography sx={styles.title}>{UI_LABELS.TITLES.SOFT_SKILLS}</Typography>
+      <Typography sx={styles.title}>
+        {UI_LABELS.TITLES.PERSONAL_SKILLS}
+      </Typography>
 
       <div style={styles.itemsContainer}>
         {RESUME_TEMPLATE.SOFT_SKILLS.map((skill, index) => (

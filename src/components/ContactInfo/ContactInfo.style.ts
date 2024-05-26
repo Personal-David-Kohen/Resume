@@ -21,9 +21,10 @@ export const useStyles = () =>
     },
     section: {
       width: "100%",
+      marginTop: "2px",
       display: "flex",
       alignItems: "center",
-      justifyContent: "center",
+      justifyContent: "flex-start",
     },
     icon: {
       margin: "0 10px",

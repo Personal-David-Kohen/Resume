@@ -11,7 +11,7 @@ export const useStyles = () =>
       fontWeight: 400,
     },
     categoryContainer: {
-      marginTop: "1rem",
+      marginTop: "0.5rem",
     },
     category: {
       fontSize: "0.9rem",
