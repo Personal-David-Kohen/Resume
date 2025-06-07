@@ -19,11 +19,11 @@ export const RESUME_TEMPLATE = {
       DOMAIN: "gmail.com",
     },
   },
-  EXPERIANCE: [
+  EXPERIENCE: [
     {
       TITLE: "Full Stack Software Engineer",
       COMPANY: "MAMRAM, IDF",
-      DURATION: "2022 - Present",
+      DURATION: "2022 - 2024",
       DESCRIPTION: [
         "Developed and maintained large-scale web applications using microservices architecture implemented with Node.js, and NestJS.",
         `Build scalable React component structures utilizing "Optimistic UI", memoization, complex state management as well as lazy data loading`,
@@ -33,6 +33,22 @@ export const RESUME_TEMPLATE = {
         "Managed all department AWS, OpenShift, and Azure cloud resources and services including EKS, App Services, and Serverless Function Apps",
         "Standardized the Department's OpenShift(Kubernetes) deployment process and rebuild all resources to be deployed with GitOps methodology.",
         "Mentored junior developers and conducted code reviews to ensure code quality and best practices.",
+      ],
+    },
+    {
+      TITLE: "Software Architect",
+      COMPANY: "Aman Group",
+      DURATION: "2024 – Present",
+      DESCRIPTION: [
+        "Architecting and leading the development of scalable data transformation pipelines to support high-throughput data processing.",
+        "Designing and implementing a secure, microservices-based data exchange system using Kubernetes and Helm for deployment and orchestration.",
+        "Integrating data streams from external providers including Mekorot and Supergas, ensuring reliability, format compliance, and real-time availability.",
+        "Collaborating with Microsoft engineers to align system architecture with enterprise security and interoperability standards.",
+        "Building a multi-network architecture to ensure data integrity, access control, and secure communication across isolated environments.",
+        "Leveraging TypeScript and Node-RED for building modular, maintainable logic flows and service integrations.",
+        "Implementing observability and monitoring with Grafana and Splunk to ensure system health, performance insights, and auditability.",
+        "Establishing CI/CD pipelines and release workflows using Git and Helm charts to enable reproducible deployments and environment consistency.",
+        "Providing architectural oversight and mentoring development teams to uphold best practices in code quality, security, and system design.",
       ],
     },
   ],

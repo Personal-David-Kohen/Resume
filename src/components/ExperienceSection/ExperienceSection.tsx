@@ -10,7 +10,7 @@ const ExperienceSection = () => {
     <div style={styles.container}>
       <Typography sx={styles.title}>{UI_LABELS.TITLES.EXPERIENCE}</Typography>
 
-      {RESUME_TEMPLATE.EXPERIANCE.map((item, index) => (
+      {RESUME_TEMPLATE.EXPERIENCE.map((item, index) => (
         <>
           <Typography key={index} sx={styles.jobTitle}>
             {item.TITLE}
