@@ -40,7 +40,7 @@ export const RESUME_TEMPLATE = {
       COMPANY: "Aman Group",
       DURATION: "2024 – Present",
       DESCRIPTION: [
-        "Architecting and leading the development of scalable data transformation pipelines to support high-throughput data processing.",
+        "Leading the development of scalable data transformation pipelines to support high-throughput data processing.",
         "Designing and implementing a secure, microservices-based data exchange system using Kubernetes and Helm for deployment and orchestration.",
         "Integrating data streams from external providers including Mekorot and Supergas, ensuring reliability, format compliance, and real-time availability.",
         "Collaborating with Microsoft engineers to align system architecture with enterprise security and interoperability standards.",
